@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpuid.cpp">
+    <ClCompile Include="get_vendor_name.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
