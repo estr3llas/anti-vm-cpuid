@@ -2,15 +2,12 @@
 
 #include <stdio.h>
 #include <windows.h>
-#include <inttypes.h>
 
 BOOL IsVirtualizationPresent();
 
 int main(int argc, char* argv[]) {
 
-	BOOL beingVirtualized = IsVirtualizationPresent();
-
-	beingVirtualized ? puts("[+] Virtualization detected!") : puts("[-] No virtualization detected.");
+	puts(IsVirtualizationPresent() ? "[+] Virtualization detected!" : "[-] No virtualization detected.");
 
 	return EXIT_SUCCESS;
 }
