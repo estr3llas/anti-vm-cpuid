@@ -18,5 +18,8 @@
     <ClCompile Include="get_vendor_name.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IsVirtualizationPresent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
