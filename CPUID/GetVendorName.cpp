@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	puts("[+] Virtualization detected!");
-	printf("\t[+] Maximum supported CPUID functions: %" PRId32 "\n", maximumFunction);
+	printf("\t[+] Maximum supported CPUID functions: 0x%08x\n", maximumFunction);
 	printf("\t[+] Vendor id: %s\n", (char*)vendor);
 
 	return EXIT_SUCCESS;
