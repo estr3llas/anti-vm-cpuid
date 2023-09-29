@@ -5,11 +5,13 @@
 #include <stdint.h>
 
 /*
-	Extended version of HardwareFeatures (added more fields), mostly of them is just miscelaneous and aren't useful against malware devoloping/sandbox detection. 
-	Note that the function void GetHardwareFeatures(PHARDWARE_FEATURES hardwarefeatures); doesnt check if the actual environment is being virtualized first, it just query the values as if it is being virtualized.
+	Extended version of HardwareFeatures (added more fields), mostly of them is just miscelaneous and aren't useful against 
+ 	malware devoloping/sandbox detection. 
+	Note that the function void GetHardwareFeatures(PHARDWARE_FEATURES hardwarefeatures); doesnt check if the actual 
+ 	environment is being virtualized first, it just queries the values as if it is being virtualized.
 	
-	Notes: This code ins unfinished, still figuring out some ways to handle HypervisorLevel and incompatibilty between different Windows versions (OS 10/OS 11).
-
+	Important: This code is unfinished, still figuring out some ways to handle HypervisorLevel and incompatibilty between 
+ 	different Windows versions (OS 10/OS 11).
 */
 
 typedef struct HardwareFeatures {
