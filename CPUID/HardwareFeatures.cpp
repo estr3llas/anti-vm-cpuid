@@ -152,7 +152,7 @@ HardwareFeatures GetHardwareFeatures() {
 		return hardwarefeatures;
 	}
 
-	puts("[-] The environment is not an virtualized environment");
+	puts("[-] The environment is not a virtualized environment");
 
 	return hardwarefeatures;
 }
