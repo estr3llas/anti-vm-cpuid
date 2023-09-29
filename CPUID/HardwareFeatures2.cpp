@@ -25,7 +25,7 @@ typedef struct HardwareFeatures {
 	int DMAProtection;                          // EAX[7]
 	int HPET;                                   // EAX[8]
 	int VolatileSyntheticTimers;                // EAX[9]
-	//int HypervisorLevel;                      // EAX[10] - Uncomment if needed
+	//int HypervisorLevel;                      // EAX[10]
 	int PhysicalDestinationMode;                // EAX[14]
 	int HardwareMemoryZeroing;                  // EAX[16]
 	int UnrestrictedGuest;                      // EAX[17]
