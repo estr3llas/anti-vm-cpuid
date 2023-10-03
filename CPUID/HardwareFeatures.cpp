@@ -3,14 +3,14 @@
 #include <stdint.h>
 
 typedef struct HardwareFeatures {
-	BOOL SLAT;						//EAX[3]
+	BOOL SLAT;				//EAX[3]
 	BOOL InterruptRemapping;		//EAX[5]
-	BOOL DMAProtection;				//EAX[7]
+	BOOL DMAProtection;			//EAX[7]
 	uint32_t HypervisorLevel;		//((unsigned long)EAX >> 10) & 0x0F
-	BOOL PhysicalDestinationMode;	//EAX[14]
+	BOOL PhysicalDestinationMode;		//EAX[14]
 	BOOL UnrestrictedGuest;			//EAX[17]
 	BOOL ResourceMonitoring;		//EAX[19]
-	BOOL ACPIWDAT;					//EAX[24]
+	BOOL ACPIWDAT;				//EAX[24]
 } HardwareFeatures;
 
 HardwareFeatures GetHardwareFeatures();
