@@ -1,3 +1,7 @@
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/spyw4re/cpuid_for_antivm/blob/master/assets/cpuid.png">
+</p>
+
 ![cpuid](https://github.com/spyw4re/cpuid_for_antivm/blob/master/assets/cpuid.png)
 # CPUID for Anti-vm
 This repo is a collection of codes which implements the "CPUID" instruction to identify virtualized environments.</br>
