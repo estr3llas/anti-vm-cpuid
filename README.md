@@ -11,5 +11,5 @@ But if you're willing to, don't forget: </br></br>
 In `Project properties > C/C++ > Code Generation`, change "Runtime Library" field to: **Multi-threaded (/MT)** </br></br>
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/spyw4re/cpuid_for_antivm/blob/master/assets/runtime_lib.png">
+    <img src="https://github.com/spyw4re/cpuid_for_antivm/blob/master/assets/runtime_lib.png">
 </p>
