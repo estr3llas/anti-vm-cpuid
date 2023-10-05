@@ -1,5 +1,5 @@
 # CPUID for Anti-vm
-This repo is a collection of codes which implements "CPUID" instruction to identify virtualized environments.</br>
+This repo is a collection of codes which implements the "CPUID" instruction to identify virtualized environments.</br>
 
 ## Important
 **I do not recommend compiling it from the `.sln` file, just copy the codes into your own.** </br></br>
